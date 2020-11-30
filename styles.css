@@ -142,6 +142,7 @@ form.findRepo input {
   display: block;
   width: 100%;
   position: relative;
+  font-size: 1.4rem;
 }
 
 form.findRepo input::placeholder {
@@ -207,7 +208,6 @@ section.repos div.repo div.info div.language div {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: #f1e05a;
   margin-right: 3px;
   display: inline-block;
 }
