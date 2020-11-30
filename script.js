@@ -140,7 +140,7 @@ window.onload = () => {
     method: "post",
     headers: {
       "Content-Type": "application/json",
-      Authorization: "Bearer a77efaca249054c63e91b8b4eb2489ee96a4beaa",
+      Authorization: `Bearer ${process.env.BEARER_TOKEN}`,
     },
     body: JSON.stringify({
       query: getRepos(),
