@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/dro-1/buycoins-gh-clone/issues"
   },
-  "homepage": "https://github.com/dro-1/buycoins-gh-clone#readme"
+  "homepage": "https://github.com/dro-1/buycoins-gh-clone#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
 }
